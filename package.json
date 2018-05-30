@@ -1,0 +1,24 @@
+{
+  "name": "homespring",
+  "version": "1.0.0",
+  "description": "> Because programming isn’t like a river, but it damn well ought to be.",
+  "main": "homespring.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TotempaaltJ/homespring-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TotempaaltJ/homespring-js/issues"
+  },
+  "homepage": "https://github.com/TotempaaltJ/homespring-js#readme"
+}

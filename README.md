@@ -8,8 +8,8 @@ programming language), in Javascript OO.
 ## How to try it out
 
 Open [homespring.html](homespring.html) if you want to see the salmon travel
-through the river, or use `homespring.js` if you don't want the neat
-visualisations.
+through the river, or run `hs.js`/import and use `homespring.js` if you don't
+want the neat visualisations.
 
 ## Things to do
 

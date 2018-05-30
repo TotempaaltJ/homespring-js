@@ -175,7 +175,7 @@ export class Node {
   }
 }
 Node.prototype.SalmonType = Salmon;
-Node.prototype.printer = (salmon) => { console.log(salmon); };
+Node.prototype.printer = (salmon) => { process.stdout.write(salmon.name); };
 
 
 export function tokensFactory(NodeType) {
@@ -298,6 +298,12 @@ export class Runner {
 
   traverse(callers) {
     _traverse(this.root, callers);
+  }
+
+  run() {
+    while (this.continue) {
+      this.doTick();
+    }
   }
 
   doTick() {
