@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="module" src="homespring-html.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <textarea class="program">Universe net hatchery Hello,. World!  powers a b snowmelt</textarea>
+    <button class="boot">Boot</button>
+
+    <p>
+    <button class="doTick">Tick!</button>
+    <button class="run">Run!</button>
+    <button class="stop">Stop!</button>
+    <br>
+    <strong>Run:</strong> <span class="runs"></span>
+    <br>
+    <strong>Tick number:</strong> <span class="ticksN"></span>
+    <br>
+    <strong>Tick:</strong> <span class="tick"></span>
+    </p>
+
+    <strong>Output:</strong>
+    <pre class="output"></pre>
+
+    <strong>River system:</strong>
+    <div class="riverSystem">
+      <ul class="target"></ul>
+    </div>
+
+    <template id="node">
+      <li class="node">
+        <span class="name"></span>
+        <span class="generatingPower">🔋</span>
+        <span class="destroyed">💥</span>
+        <span class="salmons"></span>
+        <ul class="children"></ul>
+      </li>
+    </template>
+    <template id="salmon">
+      <span class="salmon"><span class="name"></span></span>
+    </template>
+
+  </body>
+</html>
