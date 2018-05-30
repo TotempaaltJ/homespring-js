@@ -5,6 +5,12 @@
 An incomplete and possibly incorrect implementation of Homespring (the
 programming language), in Javascript OO.
 
+## How to try it out
+
+Open [homespring.html](homespring.html) if you want to see the salmon travel
+through the river, or use `homespring.js` if you don't want the neat
+visualisations.
+
 ## Things to do
 
 - [ ] Make a lot of things neater
